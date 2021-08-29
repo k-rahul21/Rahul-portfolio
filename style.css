@@ -1,0 +1,138 @@
+@import url("https://fonts.googleapis.com/css2?family=Montserrat:wght@400;700&display=swap");
+
+:root {
+  --primary-color: #1e40af;
+  --dark-gray-color: #6b7280;
+  --off-white: #f3f4f6;
+}
+
+body {
+  font-family: "Montserrat", sans-serif;
+  margin: 0;
+}
+
+hr {
+  margin: 2rem 0;
+}
+
+/* Container */
+.container {
+  padding: 0 1rem;
+}
+
+.container-center {
+  max-width: 600px;
+  margin: auto;
+}
+
+/* links */
+
+.link {
+  text-decoration: none;
+  padding: 0.5rem 1rem;
+  border-radius: 0.5rem;
+}
+
+.link-primary {
+  background-color: var(--primary-color);
+  color: #fff;
+}
+
+.link-secondary {
+  color: var(--primary-color);
+  border: 1px solid var(--primary-color);
+}
+
+/* lists */
+
+.list-non-bullet {
+  list-style: none;
+}
+
+.list-item-inline {
+  display: inline;
+  padding: 0 0.5rem;
+}
+
+/* navigation */
+.navigation {
+  background-color: var(--primary-color);
+  color: #fff;
+  padding: 0.5rem;
+  border-bottom-left-radius: 1rem;
+}
+
+.navigation .nav-brand {
+  font-weight: 700;
+}
+
+.navigation .nav-pills {
+  text-align: right;
+}
+
+.navigation .link {
+  color: #fff;
+}
+
+.navigation .link-active {
+  font-weight: bold;
+}
+
+/* header  */
+.hero {
+  padding: 2rem;
+}
+
+.hero .hero-img {
+  max-width: 350px;
+  display: block;
+  margin: auto;
+}
+
+.hero .hero-heading {
+  color: var(--dark-gray-color);
+  text-align: center;
+  font-size: 2.5rem;
+  padding-top: 1rem;
+}
+
+.highlight {
+  color: var(--primary-color);
+}
+
+/* section */
+
+section {
+  padding: 2rem;
+}
+
+section > h1 {
+  text-align: center;
+}
+
+.ow {
+  background-color: var(--off-white);
+}
+
+/* footer */
+
+.footer {
+  background-color: var(--primary-color);
+  color: #fff;
+  padding: 1.5rem;
+  border-top-right-radius: 1rem;
+  text-align: center;
+}
+
+.footer .footer-header {
+  font-weight: bold;
+  font-size: 2rem;
+}
+
+.footer .link {
+  color: #fff;
+}
+
+.footer ul {
+  padding-inline-start: 0;
+}
