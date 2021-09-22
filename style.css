@@ -178,9 +178,9 @@ section > h1 {
 }
 
 .border:hover {
-  transform: scale(1.1);
-  margin-top: 2rem;
-  margin-bottom: 2rem;
+  /* transform: scale(1.1); */
+  /* margin-top: 2rem; */
+  /* margin-bottom: 2rem; */
 }
 
 .name {
