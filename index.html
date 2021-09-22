@@ -4,15 +4,20 @@
     <meta charset="UTF-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Rahul-Portfolio</title>
+    <title>Rahul Khandelwal</title>
+    <link rel="icon" href="Images/boy.png" />
     <link rel="stylesheet" href="style.css" />
+    <link
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/gh/devicons/devicon@v2.13.0/devicon.min.css"
+    />
   </head>
   <body>
     <nav class="navigation container">
       <div class="nav-brand">rahulKhandelwal</div>
       <ul class="list-non-bullet nav-pills">
         <li class="list-item-inline">
-          <a class="link link-active" href="/">Home</a>
+          <a class="link link-active" href="index.html">Home</a>
         </li>
         <li class="list-item-inline">
           <a class="link" href="projects.html">Projects</a>
@@ -30,47 +35,87 @@
         <p class="hero-heading">I am a front-end developer.</p>
       </div>
       <div class="coffee-with-me">
-        <a class="link link-secondary btn" href="/">Coffee with me</a>
+        <a class="link link-secondary btn" href="#coffeewithme"
+          >Coffee with me</a
+        >
       </div>
     </header>
 
     <section class="section ow">
       <h1>Skills</h1>
-      <div class="container container-center"></div>
+      <div class="skills container-center">
+        <i class="icons devicon-html5-plain colored"></i>
+        <i class="icons devicon-css3-plain colored"></i>
+        <i class="icons devicon-javascript-plain colored"></i>
+        <i class="icons devicon-cplusplus-line colored"></i>
+        <i class="icons devicon-git-plain colored"></i>
+        <i class="icons devicon-mysql-plain-wordmark colored"></i>
+        <i class="icons devicon-vscode-plain colored"></i>
+      </div>
     </section>
 
     <section class="section">
       <h1>Projects</h1>
       <div class="container container-center">
-        <p>This will have white background.</p>
-        <a class="link link-primary" href="/">Browse Projects</a>
+        <p>
+          I like to build projects to test my understanding and also believe in
+          showcasing my work. Feel free to checkout my hosted projects.
+        </p>
+        <a class="link link-primary" href="projects.html">Browse Projects</a>
       </div>
     </section>
 
     <section class="section ow">
-      <h1>Technologies</h1>
+      <h1>Blogs</h1>
       <div class="container container-center">
-        <p>This will have gray background.</p>
-        <a class="link link-secondary" href="/">Read Blogs</a>
+        <p>
+          I like to leverage my skills along with documenting my journey. Having
+          said that, I have already written 2 blogs and am working on more. Feel
+          free to check them out.
+        </p>
+        <a class="link link-secondary" href="blogs.html">Read Blogs</a>
       </div>
     </section>
+
+    <section class="section" id="coffeewithme">
+      <h1>Coffee with me.</h1>
+      <div class="container container-center">
+        <p>
+          Interested in working together? We should queue up a chat. I'll buy a
+          coffee.
+        </p>
+        <div class="lets-do-this">
+          <a
+            class="link link-secondary btn"
+            href="mailto:mrkhandelwal19@gmail.com"
+            >Let's do this</a
+          >
+        </div>
+      </div>
+    </section>
+
     <footer class="footer">
       <div class="footer-header">On the web</div>
       <ul class="social-links list-non-bullet">
         <li class="list-item-inline">
-          <a class="link" href="https://github.com/k-rahul21">Github</a>
+          <a class="link" href="https://github.com/k-rahul21"
+            ><i class="social-icons devicon-github-original"></i
+          ></a>
         </li>
         <li class="list-item-inline">
-          <a class="link" href="https://twitter.com/iamkhandelwal21">Twitter</a>
+          <a class="link" href="https://twitter.com/iamkhandelwal21"
+            ><i class="social-icons devicon-twitter-original"></i
+          ></a>
         </li>
         <li class="list-item-inline">
           <a
             class="link"
             href="https://www.linkedin.com/in/rahul-khandelwal-56607a170/"
-            >Linkedin</a
-          >
+            ><i class="social-icons devicon-linkedin-plain"></i
+          ></a>
         </li>
       </ul>
+      <p>Made with ❤ in India</p>
     </footer>
   </body>
 </html>
