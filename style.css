@@ -23,11 +23,11 @@ hr {
 
 /* Container */
 .container {
-  padding: 0 1rem;
+  padding: 0 0.5rem;
 }
 
 .container-center {
-  max-width: 600px;
+  max-width: 550px;
   margin: auto;
 }
 
@@ -119,6 +119,7 @@ hr {
 .btn {
   border-radius: 5rem;
 }
+
 .btn:hover {
   background-color: var(--primary-color);
   color: #fff;
