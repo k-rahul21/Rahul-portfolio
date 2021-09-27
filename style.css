@@ -40,6 +40,12 @@ hr {
   margin: auto;
 }
 
+@media screen and (max-width: 600px) {
+  .container-center {
+    max-width: 70vw;
+  }
+}
+
 /* links */
 
 .link {
