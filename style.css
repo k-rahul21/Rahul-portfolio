@@ -45,7 +45,7 @@ hr {
 @media screen and (max-width: 600px) {
   .container-center {
     max-width: 70vw;
-    margin: 2rem;
+    margin-left: 2rem;
   }
 }
 
