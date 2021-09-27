@@ -242,3 +242,9 @@ section > h1 {
 .skill-name {
   font-weight: bold;
 }
+
+/* Blog heading */
+#blog-heading {
+  background-color: var(--dark-green-color);
+  margin: 0;
+}
