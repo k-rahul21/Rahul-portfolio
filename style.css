@@ -2,14 +2,16 @@
 @import url("https://fonts.googleapis.com/css2?family=Sacramento&display=swap");
 
 :root {
-  --primary-color: #1e40af;
-  --dark-gray-color: #6b7280;
-  --off-white: #f3f4f6;
+  --primary-color: #05385b;
+  --dark-green-color: #5cdb95;
+  --light-color: #edf5e1;
 }
 
 body {
   font-family: "Montserrat", sans-serif;
   margin: 0;
+  background-color: var(--light-color);
+  color: var(--primary-color);
 }
 
 h1 {
@@ -23,11 +25,12 @@ hr {
 
 /* Container */
 .container {
-  padding: 0 0.5rem;
+  padding: 1.2rem;
+  border: 1px solid var(--dark-green-color);
 }
 
 .container-center {
-  max-width: 50vw;
+  max-width: 45vw;
   margin: auto;
 }
 
@@ -40,13 +43,20 @@ hr {
 }
 
 .link-primary {
-  background-color: var(--primary-color);
-  color: #fff;
+  font-weight: bold;
+  background-color: var(--dark-green-color);
+  color: var(--primary-color);
+  border: 2px solid var(--primary-color);
+}
+
+.link-primary:hover {
+  background-color: var(--light-color);
+  font-weight: bold;
 }
 
 .link-secondary {
   color: var(--primary-color);
-  border: 1px solid var(--primary-color);
+  border: 1px solid var(--dark-green-color);
 }
 
 /* lists */
@@ -62,8 +72,7 @@ hr {
 
 /* navigation */
 .navigation {
-  background-color: var(--primary-color);
-  color: #fff;
+  color: var(--primary-color);
   padding: 0.5rem;
   border-bottom-left-radius: 1rem;
 }
@@ -77,12 +86,12 @@ hr {
 }
 
 .navigation .link {
-  color: #fff;
+  color: var(--primary-color);
 }
 
 .navigation .link-active {
   font-weight: bold;
-  border: 1px solid #fff;
+  border: 1px solid var(--dark-green-color);
 }
 
 /* header  */
@@ -97,7 +106,7 @@ hr {
 }
 
 .hero .hero-heading {
-  color: var(--dark-gray-color);
+  color: var(--dark-green-color);
   text-align: center;
   font-size: 5rem;
   padding-top: 1rem;
@@ -121,8 +130,9 @@ hr {
 }
 
 .btn:hover {
-  background-color: var(--primary-color);
-  color: #fff;
+  background-color: var(--dark-green-color);
+  border: 2px solid var(--primary-color);
+  font-weight: bold;
 }
 
 /* section */
@@ -136,17 +146,17 @@ section > h1 {
 }
 
 .ow {
-  background-color: var(--off-white);
+  background-color: var(--light-color);
 }
 
 /* footer */
 
 .footer {
-  background-color: var(--primary-color);
-  color: #fff;
-  padding: 1.5rem;
+  color: var(--primary-color);
+  padding: 1rem;
   border-top-right-radius: 1rem;
   text-align: center;
+  border: 3px solid var(--dark-green-color);
 }
 
 .footer .footer-header {
@@ -155,7 +165,7 @@ section > h1 {
 }
 
 .footer .link {
-  color: #fff;
+  color: var(--primary-color);
 }
 
 .footer ul {
